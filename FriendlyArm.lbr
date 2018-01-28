@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -799,23 +799,23 @@
 <devices>
 <device name="" package="NANOPI-DUO">
 <connects>
-<connect gate="G$1" pin="3.3V" pad="A16"/>
+<connect gate="G$1" pin="3.3V" pad="A3"/>
 <connect gate="G$1" pin="5V_1" pad="A1"/>
 <connect gate="G$1" pin="5V_2" pad="A2"/>
 <connect gate="G$1" pin="CLK" pad="B7"/>
 <connect gate="G$1" pin="CS" pad="B6"/>
 <connect gate="G$1" pin="CVBS" pad="B12"/>
-<connect gate="G$1" pin="DM2" pad="A8"/>
-<connect gate="G$1" pin="DM3" pad="A6"/>
-<connect gate="G$1" pin="DP2" pad="A9"/>
-<connect gate="G$1" pin="DP3" pad="A7"/>
-<connect gate="G$1" pin="GND" pad="A3"/>
+<connect gate="G$1" pin="DM2" pad="A9"/>
+<connect gate="G$1" pin="DM3" pad="A7"/>
+<connect gate="G$1" pin="DP2" pad="A10"/>
+<connect gate="G$1" pin="DP3" pad="A8"/>
+<connect gate="G$1" pin="GND" pad="A4"/>
 <connect gate="G$1" pin="GND1" pad="B3"/>
 <connect gate="G$1" pin="I2C_SCL" pad="B4"/>
 <connect gate="G$1" pin="I2C_SDA" pad="B5"/>
-<connect gate="G$1" pin="IOG11" pad="A5"/>
-<connect gate="G$1" pin="IOL11" pad="A4"/>
-<connect gate="G$1" pin="LNK" pad="A14"/>
+<connect gate="G$1" pin="IOG11" pad="A6"/>
+<connect gate="G$1" pin="IOL11" pad="A5"/>
+<connect gate="G$1" pin="LNK" pad="A15"/>
 <connect gate="G$1" pin="LO_L" pad="B13"/>
 <connect gate="G$1" pin="LO_R" pad="B14"/>
 <connect gate="G$1" pin="MH1" pad="MH1"/>
@@ -826,11 +826,11 @@
 <connect gate="G$1" pin="MIC_P" pad="B15"/>
 <connect gate="G$1" pin="MISO" pad="B8"/>
 <connect gate="G$1" pin="MOSI" pad="B9"/>
-<connect gate="G$1" pin="RD+" pad="A11"/>
-<connect gate="G$1" pin="RD-" pad="A10"/>
-<connect gate="G$1" pin="SPD" pad="A15"/>
-<connect gate="G$1" pin="TXN" pad="A12"/>
-<connect gate="G$1" pin="TXP" pad="A13"/>
+<connect gate="G$1" pin="RD+" pad="A12"/>
+<connect gate="G$1" pin="RD-" pad="A11"/>
+<connect gate="G$1" pin="SPD" pad="A16"/>
+<connect gate="G$1" pin="TXN" pad="A13"/>
+<connect gate="G$1" pin="TXP" pad="A14"/>
 <connect gate="G$1" pin="UART0_RX" pad="B1"/>
 <connect gate="G$1" pin="UART1_RX" pad="B10"/>
 <connect gate="G$1" pin="UART1_TX" pad="B11"/>
