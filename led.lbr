@@ -5161,6 +5161,7 @@ Source: http://docs-europe.electrocomponents.com/webdocs/08c3/0900766b808c36ca.p
 <pad name="C5" x="-1.73" y="0" drill="0.8"/>
 <pad name="C6" x="4.27" y="0" drill="0.8"/>
 <pad name="C7" x="10.27" y="0" drill="0.8"/>
+<pad name="C8" x="16.27" y="0" drill="0.8"/>
 <pad name="C9" x="22.27" y="0" drill="0.8"/>
 <pad name="C10" x="28.27" y="0" drill="0.8"/>
 <wire x1="-30.4" y1="2.5" x2="30.5" y2="2.5" width="0.127" layer="21"/>
