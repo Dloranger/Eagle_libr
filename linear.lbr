@@ -21398,7 +21398,7 @@ Source: TOSHIBA TA7358P.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MCP1703*" prefix="IC">
+<deviceset name="MCP1703*" prefix="U" uservalue="yes">
 <description>&lt;b&gt;250 mA, 16V, Low Quiescent Current LDO Regulator&lt;/b&gt;&lt;p&gt;
 Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <gates>
@@ -21422,6 +21422,17 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/22049b.pdf</description>
 <technology name="33"/>
 <technology name="40"/>
 <technology name="50"/>
+</technologies>
+</device>
+<device name="MCP1804T" package="SOT89">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="VI" pad="2"/>
+<connect gate="G$1" pin="VI1" pad="2@1"/>
+<connect gate="G$1" pin="VO" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
