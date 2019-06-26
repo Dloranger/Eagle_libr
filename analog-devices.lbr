@@ -30620,7 +30620,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8519_8529.pdf<
 </device>
 </devices>
 </deviceset>
-<deviceset name="AD8541" prefix="IC">
+<deviceset name="AD8541" prefix="U">
 <description>&lt;b&gt;General-Purpose CMOS Rail-to-Rail Amplifiers&lt;/b&gt;&lt;p&gt;
 Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544.pdf</description>
 <gates>
