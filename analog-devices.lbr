@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.6.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -30638,9 +30638,7 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD8541_8542_8544
 <technologies>
 <technology name="">
 <attribute name="MF" value="ALTERA CORPORATION" constant="no"/>
-<attribute name="MPN" value="AD8541AKSZ-REEL7" constant="no"/>
-<attribute name="OC_FARNELL" value="1333253" constant="no"/>
-<attribute name="OC_NEWARK" value="59K6818" constant="no"/>
+<attribute name="MPN" value="AD8541ARTZ-REEL" constant="no"/>
 </technology>
 </technologies>
 </device>
