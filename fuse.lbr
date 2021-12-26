@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.5.3">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01255" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -32,7 +32,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -656,6 +656,18 @@ grid 15mm, 19649 Wickmann</description>
 <rectangle x1="-6.731" y1="-2.032" x2="-5.715" y2="-1.905" layer="21"/>
 <rectangle x1="-10.287" y1="-2.032" x2="-8.509" y2="-1.905" layer="21"/>
 <hole x="0" y="0" drill="2.794"/>
+<wire x1="-12.43203125" y1="4.46278125" x2="-5.10031875" y2="4.46278125" width="0.127" layer="39"/>
+<wire x1="-5.10031875" y1="4.46278125" x2="-5.10031875" y2="3.1877" width="0.127" layer="39"/>
+<wire x1="-5.10031875" y1="3.1877" x2="5.10031875" y2="3.1877" width="0.127" layer="39"/>
+<wire x1="5.10031875" y1="3.1877" x2="5.10031875" y2="4.78155" width="0.127" layer="39"/>
+<wire x1="5.10031875" y1="4.78155" x2="12.43203125" y2="4.78155" width="0.127" layer="39"/>
+<wire x1="12.43203125" y1="4.78155" x2="12.43203125" y2="-4.46278125" width="0.127" layer="39"/>
+<wire x1="12.43203125" y1="-4.46278125" x2="5.10031875" y2="-4.46278125" width="0.127" layer="39"/>
+<wire x1="5.10031875" y1="-4.46278125" x2="5.10031875" y2="-3.1877" width="0.127" layer="39"/>
+<wire x1="5.10031875" y1="-3.1877" x2="-5.10031875" y2="-3.1877" width="0.127" layer="39"/>
+<wire x1="-5.10031875" y1="-3.1877" x2="-5.10031875" y2="-4.46278125" width="0.127" layer="39"/>
+<wire x1="-5.10031875" y1="-4.46278125" x2="-12.43203125" y2="-4.46278125" width="0.127" layer="39"/>
+<wire x1="-12.43203125" y1="-4.46278125" x2="-12.43203125" y2="4.46278125" width="0.127" layer="39"/>
 </package>
 <package name="SH22,5A">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt; grid 22,5 mm, isolated cap&lt;p&gt; OGN0031 8201 Schurter (Buerklin)</description>
