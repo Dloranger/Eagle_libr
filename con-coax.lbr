@@ -890,6 +890,18 @@ Source: Lighthorse Technologies, inc. SASF54GT.pdf</description>
 <pad name="5" x="-2.54" y="-2.54" drill="1.5" diameter="2.2"/>
 <text x="-2.54" y="4.445" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.175" y="-5.715" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="3.81" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-1.27" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-1.27" x2="8.89" y2="0" width="0.127" layer="21"/>
+<wire x1="8.89" y1="0" x2="8.89" y2="1.27" width="0.127" layer="21"/>
+<wire x1="8.89" y1="1.27" x2="7.62" y2="1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="1.27" x2="5.08" y2="1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
+<wire x1="6.35" y1="1.27" x2="7.62" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="7.62" y1="1.27" x2="8.89" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
 </package>
 <package name="PE44121">
 <description>&lt;b&gt;SMB JACK&lt;/b&gt; RIGHT ANGLE SURFACE MOUNT&lt;p&gt;
