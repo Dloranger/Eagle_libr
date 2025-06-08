@@ -48,7 +48,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -1022,6 +1022,12 @@
 <pin name="VSUP" x="27.94" y="-2.54" length="middle" rot="R180"/>
 <pin name="LIN" x="27.94" y="-5.08" length="middle" rot="R180"/>
 <pin name="GND" x="27.94" y="-7.62" length="middle" rot="R180"/>
+<wire x1="6.35" y1="0.635" x2="5.715" y2="0" width="0.254" layer="94"/>
+<wire x1="5.715" y1="0" x2="6.35" y2="-0.635" width="0.254" layer="94"/>
+<wire x1="5.715" y1="-6.985" x2="6.35" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-7.62" x2="5.715" y2="-8.255" width="0.254" layer="94"/>
+<wire x1="5.715" y1="-1.905" x2="6.35" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="6.35" y1="-2.54" x2="5.715" y2="-3.175" width="0.254" layer="94"/>
 </symbol>
 <symbol name="97C08SRT">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
@@ -1652,7 +1658,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/G8N-1L-ASDC12
 </device>
 </devices>
 </deviceset>
-<deviceset name="TLIN1021ADRQ1" prefix="IC">
+<deviceset name="TLIN1021ADRQ1" prefix="U" uservalue="yes">
 <description>&lt;b&gt;LIN Transceivers Automotive Fault-Protected LIN Transceiver with Inhibit and Wake 8-SOIC -40 to 125&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.ti.com/lit/ds/symlink/tlin1021a-q1.pdf?ts=1698763034141&amp;ref_url=https%3A%2F%2Fwww.ti.com%2Fsitesearch%2Fen-us%2Fdocs%2Funiversalsearch.tsp%3FlangPref%3Den-US%26searchTerm%3DTLIN1021ADDFRQ1%26nr%3D2"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
