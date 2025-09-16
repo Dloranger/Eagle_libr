@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.3175" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="mm" altunit="mm"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -49,8 +49,8 @@
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="yes"/>
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -455,24 +455,8 @@
 </package>
 <package name="JUMP">
 <description>&lt;b&gt;JUMPER CAB&lt;/b&gt;</description>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-2.54" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-1.27" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-0.635" x2="-0.635" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-0.635" x2="0.635" y2="-0.635" width="0.1524" layer="51"/>
-<wire x1="-0.635" y1="0.635" x2="0.635" y2="0.635" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-0.635" x2="0.635" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.27" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<text x="-0.2" y="0.6" size="0.1" layer="25">&gt;NAME</text>
-<text x="-0.3" y="-0.7" size="0.1" layer="27">&gt;VALUE</text>
+<smd name="1" x="0" y="0.635" dx="1.27" dy="1.27" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.27" dy="1.27" layer="1"/>
 </package>
 <package name="JUMP-Y">
 <description>&lt;b&gt;JUMPER CAP&lt;/b&gt;</description>
@@ -1559,11 +1543,9 @@
 <pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
 </symbol>
 <symbol name="JUMP">
-<wire x1="-2.54" y1="0.762" x2="-2.54" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="0.762" width="0.1524" layer="94"/>
-<wire x1="-3.302" y1="0" x2="-1.778" y2="0" width="0.254" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.762" y1="0" x2="0.762" y2="0" width="0.254" layer="94" curve="-180" cap="flat"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" function="dot"/>
+<pin name="2" x="0" y="0" visible="off" length="point" function="dot"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="91"/>
 </symbol>
 <symbol name="J1">
 <wire x1="0" y1="2.54" x2="0" y2="3.81" width="0.4064" layer="94"/>
@@ -2217,13 +2199,17 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="JUMPER" prefix="J" uservalue="yes">
+<deviceset name="JUMPER" uservalue="yes">
 <description>&lt;b&gt;JUMPER&lt;/b&gt; header</description>
 <gates>
 <gate name="B1" symbol="JUMP" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="JUMP">
+<connects>
+<connect gate="B1" pin="1" pad="1"/>
+<connect gate="B1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>

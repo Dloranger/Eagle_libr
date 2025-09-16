@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.001" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -14,11 +14,11 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="12" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="12" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -4459,8 +4459,6 @@
 <vertex x="-0.655415625" y="0.964446875"/>
 <vertex x="-0.62073125" y="0.9678625"/>
 </polygon>
-<wire x1="-1.3462" y1="2.286" x2="-1.6002" y2="2.286" width="0.254" layer="22" curve="-180"/>
-<wire x1="-1.6002" y1="2.286" x2="-1.3462" y2="2.286" width="0.254" layer="22" curve="-180"/>
 <text x="-2.105025" y="3.813175" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-2.130425" y="-4.905375" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <polygon width="0.0254" layer="1">
